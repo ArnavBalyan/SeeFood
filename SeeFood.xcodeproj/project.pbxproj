@@ -13,6 +13,7 @@
 		FF13458323DCDB4B00CF8596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF13458123DCDB4B00CF8596 /* Main.storyboard */; };
 		FF13458523DCDB4D00CF8596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF13458423DCDB4D00CF8596 /* Assets.xcassets */; };
 		FF13458823DCDB4D00CF8596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF13458623DCDB4D00CF8596 /* LaunchScreen.storyboard */; };
+		FF13459023DCDB9E00CF8596 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FF13458F23DCDB9E00CF8596 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FF13458423DCDB4D00CF8596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF13458723DCDB4D00CF8596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF13458923DCDB4D00CF8596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF13458F23DCDB9E00CF8596 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				FF13457F23DCDB4B00CF8596 /* ViewController.swift */,
 				FF13458123DCDB4B00CF8596 /* Main.storyboard */,
 				FF13458423DCDB4D00CF8596 /* Assets.xcassets */,
+				FF13458F23DCDB9E00CF8596 /* Inceptionv3.mlmodel */,
 				FF13458623DCDB4D00CF8596 /* LaunchScreen.storyboard */,
 				FF13458923DCDB4D00CF8596 /* Info.plist */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF13458023DCDB4B00CF8596 /* ViewController.swift in Sources */,
+				FF13459023DCDB9E00CF8596 /* Inceptionv3.mlmodel in Sources */,
 				FF13457C23DCDB4B00CF8596 /* AppDelegate.swift in Sources */,
 				FF13457E23DCDB4B00CF8596 /* SceneDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WMQY24R33;
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WMQY24R33;
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
